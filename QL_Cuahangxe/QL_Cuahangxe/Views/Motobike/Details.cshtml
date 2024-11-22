@@ -1,0 +1,16 @@
+﻿
+@model QL_Cuahangxe.Models.XEGANMAY
+
+@{
+    ViewBag.Title = "Chi tiết xe gắn máy";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<div class="product-details">
+    <h2>@Model.TenXe</h2>
+    <img src="~/Hinhsanpham/@Model.Anhbia" alt="@Model.TenXe" width="300" />
+    <p><strong>Hãng sản xuất:</strong> @Model.NHAPHANPHOI.TenNPP</p>
+    <p><strong>Giá:</strong> @Model.Giaban</p>
+    <p><strong>Mô tả:</strong> @Model.Mota</p>
+
+</div>

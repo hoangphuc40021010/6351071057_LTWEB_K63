@@ -1,0 +1,126 @@
+﻿
+@model QL_Cuahangxe.Models.MotobikeVM
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+
+<div class="row">
+
+    <div class="col-md-3">
+        <div class="filter_section">
+            <h3>Danh Mục Loại xe</h3>
+            <ul>
+                @foreach (var loaixe in Model.Loaixes)  
+                {
+                    <li>
+                        <a href="@Url.Action("FilterByCategory", "Motobike", new { id = loaixe.MaLX  })">
+                            @loaixe.TenLoaiXe
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+
+        
+        <div class="filter_section">
+            <h3>Hãng sản xuất</h3>
+            <ul>
+                @foreach (var hangsanxuat in Model.Hangsanxuats)  
+                {
+                    <li>
+                        <a href="@Url.Action("FilterByManufacturer", "Motobike", new { id = hangsanxuat.MaHSX })">
+                            @hangsanxuat.TenHSX
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+
+    
+    <div class="col-md-9">
+        <section class="catagory_section layout_padding">
+            <div class="catagory_container">
+                <div class="container">
+                    <ul class="book_list">
+                        @foreach (var xe in Model.Xeganmays) 
+                        {
+                            <li>
+                                <a href="@Url.Action("Details", "Motobike", new { id = xe.MaXe })">
+                                    <img alt="" src="~/Hinhsanpham/@xe.Anhbia" width="400" />
+                                    <span>@xe.TenXe</span>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+
+<style>
+    .filter_section {
+        margin-bottom: 20px;
+    }
+
+        .filter_section h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .filter_section ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+            .filter_section ul li {
+                margin-bottom: 5px;
+            }
+
+                .filter_section ul li a {
+                    text-decoration: none;
+                    color: #333;
+                }
+
+                    .filter_section ul li a:hover {
+                        color: #007bff;
+                    }
+
+    .book_list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        list-style: none;
+        padding-left: 0;
+    }
+
+        .book_list li {
+            flex: 0 0 calc(33.333% - 20px); 
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 300px; 
+            overflow: hidden; 
+        }
+
+            .book_list li img {
+                width: 100%; 
+                height: 100%; 
+                object-fit: cover; 
+                border-radius: 8px;
+            }
+
+            .book_list li span {
+                display: block;
+                width: 100%;
+                margin-top: 8px;
+                font-size: 16px;
+                color: #007bff;
+                text-align: center;
+            }
+
+</style>

@@ -1,0 +1,291 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|c:\\users\\phuc pc\\source\\repos\\ql_cuahangxe\\ql_cuahangxe\\controllers\\motobikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\controllers\\motobikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|c:\\users\\phuc pc\\source\\repos\\ql_cuahangxe\\ql_cuahangxe\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|c:\\users\\phuc pc\\source\\repos\\ql_cuahangxe\\ql_cuahangxe\\views\\motobike\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\views\\motobike\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|c:\\users\\phuc pc\\source\\repos\\ql_cuahangxe\\ql_cuahangxe\\controllers\\motobikevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\controllers\\motobikevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|c:\\users\\phuc pc\\source\\repos\\ql_cuahangxe\\ql_cuahangxe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|c:\\users\\phuc pc\\source\\repos\\ql_cuahangxe\\ql_cuahangxe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|c:\\users\\phuc pc\\source\\repos\\ql_cuahangxe\\ql_cuahangxe\\models\\xeganmay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\models\\xeganmay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|c:\\users\\phuc pc\\source\\repos\\ql_cuahangxe\\ql_cuahangxe\\models\\loaixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\models\\loaixe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|c:\\users\\phuc pc\\source\\repos\\ql_cuahangxe\\ql_cuahangxe\\models\\hangsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\models\\hangsanxuat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|c:\\users\\phuc pc\\source\\repos\\ql_cuahangxe\\ql_cuahangxe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|c:\\users\\phuc pc\\source\\repos\\ql_cuahangxe\\ql_cuahangxe\\views\\motobike\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\views\\motobike\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|c:\\users\\phuc pc\\source\\repos\\ql_cuahangxe\\ql_cuahangxe\\models\\nhaphanphoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\models\\nhaphanphoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|c:\\users\\phuc pc\\source\\repos\\ql_cuahangxe\\ql_cuahangxe\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|c:\\users\\phuc pc\\source\\repos\\ql_cuahangxe\\ql_cuahangxe\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HANGSANXUAT.cs",
+              "DocumentMoniker": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Models\\HANGSANXUAT.cs",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Models\\HANGSANXUAT.cs",
+              "ToolTip": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Models\\HANGSANXUAT.cs",
+              "RelativeToolTip": "QL_Cuahangxe\\Models\\HANGSANXUAT.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:19:14.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "QL_Cuahangxe\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:24:49.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "XEGANMAY.cs",
+              "DocumentMoniker": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Models\\XEGANMAY.cs",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Models\\XEGANMAY.cs",
+              "ToolTip": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Models\\XEGANMAY.cs",
+              "RelativeToolTip": "QL_Cuahangxe\\Models\\XEGANMAY.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T12:42:10.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MotobikeController.cs",
+              "DocumentMoniker": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Controllers\\MotobikeController.cs",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Controllers\\MotobikeController.cs",
+              "ToolTip": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Controllers\\MotobikeController.cs",
+              "RelativeToolTip": "QL_Cuahangxe\\Controllers\\MotobikeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T07:53:27.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_LayoutUser.cshtml",
+              "DocumentMoniker": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Shared\\_LayoutUser.cshtml",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Views\\Shared\\_LayoutUser.cshtml",
+              "ToolTip": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Shared\\_LayoutUser.cshtml",
+              "RelativeToolTip": "QL_Cuahangxe\\Views\\Shared\\_LayoutUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T07:50:30.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Motobike\\Index.cshtml",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Views\\Motobike\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Motobike\\Index.cshtml",
+              "RelativeToolTip": "QL_Cuahangxe\\Views\\Motobike\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwGQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T07:53:50.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MotobikeVM.cs",
+              "DocumentMoniker": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Controllers\\MotobikeVM.cs",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Controllers\\MotobikeVM.cs",
+              "ToolTip": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Controllers\\MotobikeVM.cs",
+              "RelativeToolTip": "QL_Cuahangxe\\Controllers\\MotobikeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T11:08:35.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LOAIXE.cs",
+              "DocumentMoniker": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Models\\LOAIXE.cs",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Models\\LOAIXE.cs",
+              "ToolTip": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Models\\LOAIXE.cs",
+              "RelativeToolTip": "QL_Cuahangxe\\Models\\LOAIXE.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T13:21:28.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "QL_Cuahangxe\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T13:25:59.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "QL_Cuahangxe\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T12:49:54.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "QL_Cuahangxe\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-11-22T12:35:05.341Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "NHAPHANPHOI.cs",
+              "DocumentMoniker": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Models\\NHAPHANPHOI.cs",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Models\\NHAPHANPHOI.cs",
+              "ToolTip": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Models\\NHAPHANPHOI.cs",
+              "RelativeToolTip": "QL_Cuahangxe\\Models\\NHAPHANPHOI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T12:42:28.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Motobike\\Details.cshtml",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Views\\Motobike\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Motobike\\Details.cshtml",
+              "RelativeToolTip": "QL_Cuahangxe\\Views\\Motobike\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T11:11:18.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Phuc PC\\source\\repos\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "QL_Cuahangxe\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T07:55:23.465Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
