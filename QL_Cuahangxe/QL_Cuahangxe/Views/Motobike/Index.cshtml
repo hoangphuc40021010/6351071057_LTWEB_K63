@@ -1,5 +1,8 @@
 ﻿
 @model QL_Cuahangxe.Models.MotobikeVM
+@using PagedList;
+@using PagedList.Mvc;
+
 
 @{
     ViewBag.Title = "Index";
@@ -12,7 +15,7 @@
         <div class="filter_section">
             <h3>Danh Mục Loại xe</h3>
             <ul>
-                @foreach (var loaixe in Model.Loaixes)  
+                @foreach (var loaixe in Model.Loaixes)
                 {
                     <li>
                         <a href="@Url.Action("FilterByCategory", "Motobike", new { id = loaixe.MaLX  })">
@@ -23,11 +26,11 @@
             </ul>
         </div>
 
-        
+
         <div class="filter_section">
             <h3>Hãng sản xuất</h3>
             <ul>
-                @foreach (var hangsanxuat in Model.Hangsanxuats)  
+                @foreach (var hangsanxuat in Model.Hangsanxuats)
                 {
                     <li>
                         <a href="@Url.Action("FilterByManufacturer", "Motobike", new { id = hangsanxuat.MaHSX })">
@@ -39,13 +42,13 @@
         </div>
     </div>
 
-    
+
     <div class="col-md-9">
         <section class="catagory_section layout_padding">
             <div class="catagory_container">
                 <div class="container">
                     <ul class="book_list">
-                        @foreach (var xe in Model.Xeganmays) 
+                        @foreach (var xe in Model.Xeganmays)
                         {
                             <li>
                                 <a href="@Url.Action("Details", "Motobike", new { id = xe.MaXe })">
@@ -56,6 +59,11 @@
                         }
                     </ul>
                 </div>
+            </div>
+
+            <!-- Phân trang -->
+            <div class="paging">
+                @Html.PagedListPager((IPagedList)Model.Xeganmays, page => Url.Action("Index", new { page = page }))
             </div>
         </section>
     </div>
@@ -98,19 +106,19 @@
     }
 
         .book_list li {
-            flex: 0 0 calc(33.333% - 20px); 
+            flex: 0 0 calc(33.333% - 20px);
             text-align: center;
             display: flex;
             flex-direction: column;
             align-items: center;
-            height: 300px; 
-            overflow: hidden; 
+            height: 300px;
+            overflow: hidden;
         }
 
             .book_list li img {
-                width: 100%; 
-                height: 100%; 
-                object-fit: cover; 
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
                 border-radius: 8px;
             }
 
@@ -122,5 +130,4 @@
                 color: #007bff;
                 text-align: center;
             }
-
 </style>

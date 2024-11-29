@@ -12,5 +12,17 @@
     <p><strong>Hãng sản xuất:</strong> @Model.NHAPHANPHOI.TenNPP</p>
     <p><strong>Giá:</strong> @Model.Giaban</p>
     <p><strong>Mô tả:</strong> @Model.Mota</p>
-
-</div>
+    <p>
+        @if (Model.MaXe != null)
+        {
+            <a href="@Url.Action("ThemGioHang", "Giohang", new { iMaxe = Model.MaXe, strURL = Request.Url.ToString() })"
+               style="color:white; background-color:red;">
+                ĐẶT MUA
+            </a>
+        }
+        else
+        {
+        <p>Không thể thêm vào giỏ hàng vì mã sách không hợp lệ.</p>
+    }
+        </p>
+    </div>

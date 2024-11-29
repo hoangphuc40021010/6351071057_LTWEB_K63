@@ -4,6 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using QL_Cuahangxe.Models;
+using PagedList;
+using PagedList.Mvc;
+using System.Web.UI;
+using System.Drawing.Printing;
 
 namespace QL_Cuahangxe.Controllers
 {
@@ -31,9 +35,12 @@ namespace QL_Cuahangxe.Controllers
         }
 
         // Phương thức Index hiển thị danh sách
-        public ActionResult Index()
+        public ActionResult Index(int ? page)
         {
-            var xeganmaymoi = LayXeganmoi(5); // Lấy 5 xe gắn máy mới nhất
+            int pageSize = 5;
+            int pageNum = (page ?? 1);
+
+            var xeganmaymoi = qlCuahangxeEntities.XEGANMAYs.OrderByDescending(a=> a.Ngaycapnhat).ToPagedList(pageNum, pageSize); // Lấy 5 xe gắn máy mới nhất
             var loaixeList = LayLoaixe(); // Lấy danh sách loại xe
             var hangsanxuatList = LayHangsanxuat(); // Lấy danh sách hãng sản xuất
 
@@ -61,9 +68,12 @@ namespace QL_Cuahangxe.Controllers
         }
 
         // Phương thức lọc xe theo loại
-        public ActionResult FilterByCategory(int id)
+        public ActionResult FilterByCategory(int id , int ? page)
         {
-            var xeTheoLoai = qlCuahangxeEntities.XEGANMAYs.Where(x => x.MaLX == id).ToList();
+            int pageSize = 5;
+            int pageNum = (page ?? 1);
+
+            var xeTheoLoai = qlCuahangxeEntities.XEGANMAYs.Where(x => x.MaLX == id).OrderBy(x=> x.MaLX).ToPagedList(pageNum, pageSize);
             var viewModel = new MotobikeVM
             {
                 Xeganmays = xeTheoLoai,
@@ -75,9 +85,12 @@ namespace QL_Cuahangxe.Controllers
         }
 
         // Phương thức lọc xe theo hãng sản xuất
-        public ActionResult FilterByManufacturer(int id)
+        public ActionResult FilterByManufacturer(int id , int ? page)
         {
-            var xeTheoHang = qlCuahangxeEntities.XEGANMAYs.Where(x => x.MaNPP == id).ToList();
+            int pageSize = 5;
+            int pageNum = (page ?? 1);
+
+            var xeTheoHang = qlCuahangxeEntities.XEGANMAYs.Where(x => x.MaNPP == id).OrderBy(x=> x.MaNPP).ToPagedList(pageNum, pageSize);
             var viewModel = new MotobikeVM
             {
                 Xeganmays = xeTheoHang,

@@ -52,6 +52,12 @@
       <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -128,9 +134,11 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\GiohangController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MotobikeController.cs" />
     <Compile Include="Controllers\MotobikeVM.cs" />
+    <Compile Include="Controllers\NguoidungController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -140,6 +148,7 @@
     <Compile Include="Models\DONDATHANG.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Giohang.cs" />
     <Compile Include="Models\HANGSANXUAT.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -213,6 +222,7 @@
     <Content Include="Content\images\contact-img.png" />
     <Content Include="Content\images\favicon.png" />
     <Content Include="Content\images\slider-img.png" />
+    <Content Include="Content\PagedList.css" />
     <Content Include="hinhsanpham\xes.jpg" />
     <Content Include="Scripts\js\bootstrap.js" />
     <Content Include="Scripts\js\custom.js" />
@@ -289,6 +299,13 @@
     <Content Include="Views\Shared\_LayoutUser.cshtml" />
     <Content Include="Views\Motobike\Index.cshtml" />
     <Content Include="Views\Motobike\Details.cshtml" />
+    <Content Include="Views\Nguoidung\Dangky.cshtml" />
+    <Content Include="Views\Giohang\GioHang.cshtml" />
+    <Content Include="Views\Giohang\GiohangPartial.cshtml" />
+    <Content Include="Views\Giohang\DatHang.cshtml" />
+    <Content Include="Views\Giohang\Xacnhandonhang.cshtml" />
+    <Content Include="Views\Nguoidung\Dangnhap.cshtml" />
+    <Content Include="Views\Nguoidung\ThongtinTaikhoan.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
