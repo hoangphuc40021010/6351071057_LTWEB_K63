@@ -17,7 +17,7 @@
             <ul>
                 @foreach (var loaixe in Model.Loaixes)
                 {
-                    <li>
+                    <li class="category-item">
                         <a href="@Url.Action("FilterByCategory", "Motobike", new { id = loaixe.MaLX  })">
                             @loaixe.TenLoaiXe
                         </a>
@@ -32,7 +32,7 @@
             <ul>
                 @foreach (var hangsanxuat in Model.Hangsanxuats)
                 {
-                    <li>
+                    <li class="manufacturer-item">
                         <a href="@Url.Action("FilterByManufacturer", "Motobike", new { id = hangsanxuat.MaHSX })">
                             @hangsanxuat.TenHSX
                         </a>
@@ -47,7 +47,7 @@
         <section class="catagory_section layout_padding">
             <div class="catagory_container">
                 <div class="container">
-                    <ul class="book_list">
+                    <ul class="xe_list">
                         @foreach (var xe in Model.Xeganmays)
                         {
                             <li>
@@ -63,13 +63,59 @@
 
             <!-- Phân trang -->
             <div class="paging">
-                @Html.PagedListPager((IPagedList)Model.Xeganmays, page => Url.Action("Index", new { page = page }))
+                @Html.PagedListPager(
+                    (IPagedList)Model.Xeganmays,
+                    page => Url.Action("Index", new { page = page }),
+                    new PagedListRenderOptions
+                    {
+                        DisplayLinkToFirstPage = PagedListDisplayMode.Always,
+                        DisplayLinkToLastPage = PagedListDisplayMode.Always,
+                        DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+                        DisplayLinkToNextPage = PagedListDisplayMode.Always,
+                        MaximumPageNumbersToDisplay = 5,
+                        LinkToFirstPageFormat = "«",
+                        LinkToPreviousPageFormat = "‹",
+                        LinkToNextPageFormat = "›",
+                        LinkToLastPageFormat = "»"
+                    })
             </div>
         </section>
     </div>
 </div>
 
 <style>
+    .paging .PagedList-skipToFirst,
+    .paging .PagedList-skipToLast,
+    .paging .PagedList-skipToPrevious,
+    .paging .PagedList-skipToNext,
+    .paging .PagedList-page {
+        display: inline-block;
+        padding: 8px 12px;
+        background-color: #f8f9fa;
+        color: #007bff;
+        border-radius: 5px;
+        border: 1px solid #007bff;
+        text-decoration: none;
+        font-size: 12px;
+        cursor: pointer;
+        margin: 0 2px;
+    }
+
+    .paging .active {
+        background-color: #007bff;
+        color: white;
+        border: 1px solid #0056b3;
+    }
+
+    .paging .PagedList-skipToFirst:hover,
+    .paging .PagedList-skipToLast:hover,
+    .paging .PagedList-skipToPrevious:hover,
+    .paging .PagedList-skipToNext:hover,
+    .paging .PagedList-page:hover {
+        background-color: #e2e6ea;
+        color: #0056b3;
+    }
+
     .filter_section {
         margin-bottom: 20px;
     }
@@ -77,6 +123,7 @@
         .filter_section h3 {
             font-size: 18px;
             margin-bottom: 10px;
+            text-align: center;
         }
 
         .filter_section ul {
@@ -85,7 +132,7 @@
         }
 
             .filter_section ul li {
-                margin-bottom: 5px;
+                margin-bottom: 10px;
             }
 
                 .filter_section ul li a {
@@ -97,7 +144,30 @@
                         color: #007bff;
                     }
 
-    .book_list {
+    /* Các mục danh mục loại xe */
+    .category-item {
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        text-align: center;
+        max-width: 200px; /* Giới hạn chiều dài tối đa của ô */
+        margin: 5px auto; /* Tạo khoảng cách đều giữa các ô */
+        word-wrap: break-word; /* Ngắt từ nếu cần */
+    }
+
+    /* Các mục hãng sản xuất */
+    .manufacturer-item {
+        padding: 8px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        text-align: center;
+        max-width: 200px; /* Giới hạn chiều dài tối đa của ô */
+        margin: 5px auto; /* Tạo khoảng cách đều giữa các ô */
+        word-wrap: break-word; /* Ngắt từ nếu cần */
+    }
+
+    /* Danh sách xe */
+    .xe_list {
         display: flex;
         flex-wrap: wrap;
         gap: 20px;
@@ -105,29 +175,16 @@
         padding-left: 0;
     }
 
-        .book_list li {
+        .xe_list li {
             flex: 0 0 calc(33.333% - 20px);
             text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 300px;
-            overflow: hidden;
         }
 
-            .book_list li img {
+            .xe_list li img {
                 width: 100%;
-                height: 100%;
-                object-fit: cover;
-                border-radius: 8px;
+                height: auto;
+                object-fit: cover; /* Giữ tỉ lệ hình ảnh */
+                max-height: 200px; /* Đặt chiều cao tối đa để đảm bảo ảnh không quá lớn */
             }
 
-            .book_list li span {
-                display: block;
-                width: 100%;
-                margin-top: 8px;
-                font-size: 16px;
-                color: #007bff;
-                text-align: center;
-            }
 </style>

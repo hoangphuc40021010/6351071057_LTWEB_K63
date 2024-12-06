@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\",
+  "WorkspaceRootPath": "D:\\N\u0102M 3(K\u00CC 2)\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|d:\\xemay\\6351071057_ltweb_k63\\ql_cuahangxe\\ql_cuahangxe\\controllers\\motobikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\controllers\\motobikecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|D:\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\ql_cuahangxe\\views\\motobike\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|d:\\n\u0103m 3(k\u00EC 2)\\xemay\\6351071057_ltweb_k63\\ql_cuahangxe\\ql_cuahangxe\\views\\motobike\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\views\\motobike\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|D:\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\ql_cuahangxe\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|D:\\N\u0102M 3(K\u00CC 2)\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\ql_cuahangxe\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\views\\shared\\_layoutuser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|D:\\N\u0102M 3(K\u00CC 2)\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\ql_cuahangxe\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|D:\\N\u0102M 3(K\u00CC 2)\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\ql_cuahangxe\\views\\admin\\xe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\views\\admin\\xe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|D:\\N\u0102M 3(K\u00CC 2)\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\ql_cuahangxe\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{77C12E1C-444B-43C3-A3E9-65264011D6C9}|QL_Cuahangxe\\QL_Cuahangxe.csproj|solutionrelative:ql_cuahangxe\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,40 +58,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MotobikeController.cs",
-              "DocumentMoniker": "D:\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\Controllers\\MotobikeController.cs",
-              "RelativeDocumentMoniker": "QL_Cuahangxe\\Controllers\\MotobikeController.cs",
-              "ToolTip": "D:\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\Controllers\\MotobikeController.cs",
-              "RelativeToolTip": "QL_Cuahangxe\\Controllers\\MotobikeController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "D:\\N\u0102M 3(K\u00CC 2)\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\App_Start\\RouteConfig.cs",
+              "ToolTip": "D:\\N\u0102M 3(K\u00CC 2)\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "QL_Cuahangxe\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T07:38:39.457Z",
+              "WhenOpened": "2024-12-05T14:30:52.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\N\u0102M 3(K\u00CC 2)\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Motobike\\Index.cshtml",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Views\\Motobike\\Index.cshtml",
+              "ToolTip": "D:\\N\u0102M 3(K\u00CC 2)\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Motobike\\Index.cshtml",
+              "RelativeToolTip": "QL_Cuahangxe\\Views\\Motobike\\Index.cshtml",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAAALwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T14:30:31.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Motobike\\Index.cshtml",
-              "RelativeDocumentMoniker": "QL_Cuahangxe\\Views\\Motobike\\Index.cshtml",
-              "ToolTip": "D:\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Motobike\\Index.cshtml",
-              "RelativeToolTip": "QL_Cuahangxe\\Views\\Motobike\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Title": "_LayoutUser.cshtml",
+              "DocumentMoniker": "D:\\N\u0102M 3(K\u00CC 2)\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Shared\\_LayoutUser.cshtml",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Views\\Shared\\_LayoutUser.cshtml",
+              "ToolTip": "D:\\N\u0102M 3(K\u00CC 2)\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Shared\\_LayoutUser.cshtml",
+              "RelativeToolTip": "QL_Cuahangxe\\Views\\Shared\\_LayoutUser.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-29T07:38:30.087Z"
+              "WhenOpened": "2024-12-05T14:29:36.312Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_LayoutUser.cshtml",
-              "DocumentMoniker": "D:\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Shared\\_LayoutUser.cshtml",
-              "RelativeDocumentMoniker": "QL_Cuahangxe\\Views\\Shared\\_LayoutUser.cshtml",
-              "ToolTip": "D:\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Shared\\_LayoutUser.cshtml",
-              "RelativeToolTip": "QL_Cuahangxe\\Views\\Shared\\_LayoutUser.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Xe.cshtml",
+              "DocumentMoniker": "D:\\N\u0102M 3(K\u00CC 2)\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Admin\\Xe.cshtml",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Views\\Admin\\Xe.cshtml",
+              "ToolTip": "D:\\N\u0102M 3(K\u00CC 2)\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\Views\\Admin\\Xe.cshtml",
+              "RelativeToolTip": "QL_Cuahangxe\\Views\\Admin\\Xe.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T07:50:30.849Z"
+              "WhenOpened": "2024-12-05T14:28:15.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Web.config",
+              "DocumentMoniker": "D:\\N\u0102M 3(K\u00CC 2)\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\Web.config",
+              "RelativeDocumentMoniker": "QL_Cuahangxe\\Web.config",
+              "ToolTip": "D:\\N\u0102M 3(K\u00CC 2)\\Xemay\\6351071057_LTWEB_K63\\QL_Cuahangxe\\QL_Cuahangxe\\Web.config",
+              "RelativeToolTip": "QL_Cuahangxe\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAADvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-05T14:23:54.857Z",
+              "EditorCaption": ""
             }
           ]
         },

@@ -4,7 +4,8 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="7b7f9aa74b2841c1b80c9b6038b5ff1c" Name="Diagram1">
+      <Diagram DiagramId="15da332a0936403cbadeb707cafc4c0f" Name="Diagram1">
+        <EntityTypeShape EntityType="QLBanXeGanMayModel.Admin" Width="1.5" PointX="5.75" PointY="7" IsExpanded="true" />
         <EntityTypeShape EntityType="QLBanXeGanMayModel.CHITIETDONTHANG" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="QLBanXeGanMayModel.DONDATHANG" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
         <EntityTypeShape EntityType="QLBanXeGanMayModel.HANGSANXUAT" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />

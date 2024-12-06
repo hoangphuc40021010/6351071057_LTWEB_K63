@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Phuc PC\source\repos\QL_Cuahangxe\QL_Cuahangxe\Models\Model1.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\phucp\Downloads\Xemay\Xemay\6351071057_LTWEB_K63\QL_Cuahangxe\QL_Cuahangxe\Models\Model1.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

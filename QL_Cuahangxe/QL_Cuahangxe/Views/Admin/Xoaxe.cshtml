@@ -1,0 +1,97 @@
+﻿@model QL_Cuahangxe.Models.XEGANMAY
+
+@{
+    ViewBag.Title = "Xoaxe";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Xác định thông tin xe cần xóa</h2>
+
+<h3>Bạn có chắc muốn xóa chiếc xe này?</h3>
+<div>
+    <h4>XE</h4>
+    <hr />
+    <dl class="dl-horizontal">
+
+        <dt>
+            Tên xe:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tenxe)
+        </dd>
+
+        <dt>
+            Giá bán:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Giaban) VNĐ
+        </dd>
+
+        <dt>
+            Mô tả:
+        </dt>
+
+        <dd style="width:600px; text-align:justify">
+            @Html.DisplayFor(model => model.Mota)
+        </dd>
+
+        <dt>
+            Ảnh bìa:
+        </dt>
+
+        <dd>
+            <img src="@Url.Content("~/Hinhsanpham/" + Model.Anhbia)" width="140" />
+        </dd>
+
+        <dt>
+            Ngày cập nhật:
+        </dt>
+
+        <dd>
+            @String.Format("{0:dd/MM/yyyy}", Model.Ngaycapnhat)
+        </dd>
+
+        <dt>
+            Số lượng tồn:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Soluongton)
+        </dd>
+
+        <dt>
+            Tên loại xe:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LOAIXE.TenLoaiXe)
+        </dd>
+
+        <dt>
+            Tên nhà phân phối:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NHAPHANPHOI.TenNPP)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm("Xacnhanxoa", "Admin", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+
+        <!-- Gửi id của Xe để đảm bảo action nhận được -->
+        @Html.Hidden("id", Model.MaXe)
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Xóa" class="btn btn-danger" /> |
+            @Html.ActionLink("Back to List", "Index", null, new { @class = "btn btn-default" })
+        </div>
+    }
+
+
+
+</div>

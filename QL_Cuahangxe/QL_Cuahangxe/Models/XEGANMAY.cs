@@ -11,10 +11,12 @@ namespace QL_Cuahangxe.Models
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.Web.Mvc;
     
     public partial class XEGANMAY
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        
         public XEGANMAY()
         {
             this.CHITIETDONTHANGs = new HashSet<CHITIETDONTHANG>();
@@ -24,6 +26,7 @@ namespace QL_Cuahangxe.Models
         public int MaXe { get; set; }
         public string TenXe { get; set; }
         public Nullable<decimal> Giaban { get; set; }
+        [AllowHtml]
         public string Mota { get; set; }
         public string Anhbia { get; set; }
         public Nullable<System.DateTime> Ngaycapnhat { get; set; }
